@@ -1,0 +1,70 @@
+﻿@model  Assignment.Models.employee
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Product</title>
+</head>
+<body>
+    <div>
+
+        @*@Html.DisplayName("Id:") - @Html.Editor("Id")
+        <br /><br />
+        @Html.DisplayFor(x => x.Pr_Name) - @Html.EditorFor(x => x.Pr_Name)
+        <br />
+        <br />
+        @Html.DisplayFor(x => x.Quantity) - @Html.EditorFor(x => x.Quantity)
+        <br />
+        <br />
+        @Html.DisplayFor(x => x.ExpireDob) - @Html.EditorFor(x => x.ExpireDob)
+        <br />
+        <br />
+        @Html.DisplayFor(x => x.Price) - @Html.EditorFor(x => x.Price)
+        <hr />
+        @Html.EditorForModel()*@
+
+
+        @using (Html.BeginForm("SaveData", "ForhadEmp", FormMethod.Post))
+        {
+
+            <br />
+        <br />
+        @Html.Label("Product ID:")
+        @Html.TextBox("Id")
+        <br />
+        @Html.ValidationMessage("Id")
+        <br />
+        @Html.Label("Product Name:")
+        @Html.TextBox("Name")
+        <br />
+        @Html.ValidationMessage("Name")
+        <br />
+        @Html.Label("Product Price:")
+        @Html.TextBox("Price")
+        <br />
+        @Html.ValidationMessage("Price")
+
+        <br />
+        @Html.Label("Product Quantity:")
+        @Html.TextBox("Quantity")
+        <br />
+        @Html.ValidationMessage("Quantity")
+        <br />
+        <br />
+        @Html.Label("ExpiteDate")
+        @Html.DisplayFor(x => x.ExpireDob) @Html.EditorFor(x => x.ExpireDob)
+        <br />
+        <br />
+
+        <input type="submit" value="Save" />
+       
+        }
+
+    </div>
+</body>
+</html>
