@@ -1,0 +1,14 @@
+G:\ClickCart-main\Backend\ClickCart\BLL\bin\Debug\BLL.dll
+G:\ClickCart-main\Backend\ClickCart\BLL\bin\Debug\BLL.pdb
+G:\ClickCart-main\Backend\ClickCart\BLL\bin\Debug\AutoMapper.dll
+G:\ClickCart-main\Backend\ClickCart\BLL\bin\Debug\DAL.dll
+G:\ClickCart-main\Backend\ClickCart\BLL\bin\Debug\EntityFramework.dll
+G:\ClickCart-main\Backend\ClickCart\BLL\bin\Debug\DAL.pdb
+G:\ClickCart-main\Backend\ClickCart\BLL\bin\Debug\DAL.dll.config
+G:\ClickCart-main\Backend\ClickCart\BLL\bin\Debug\AutoMapper.xml
+G:\ClickCart-main\Backend\ClickCart\BLL\bin\Debug\EntityFramework.xml
+G:\ClickCart-main\Backend\ClickCart\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+G:\ClickCart-main\Backend\ClickCart\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+G:\ClickCart-main\Backend\ClickCart\BLL\obj\Debug\BLL.csproj.CopyComplete
+G:\ClickCart-main\Backend\ClickCart\BLL\obj\Debug\BLL.dll
+G:\ClickCart-main\Backend\ClickCart\BLL\obj\Debug\BLL.pdb

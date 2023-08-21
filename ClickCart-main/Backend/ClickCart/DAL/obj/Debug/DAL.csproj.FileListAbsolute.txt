@@ -1,0 +1,15 @@
+G:\ClickCart-main\Backend\ClickCart\DAL\bin\Debug\DAL.dll.config
+G:\ClickCart-main\Backend\ClickCart\DAL\bin\Debug\DAL.dll
+G:\ClickCart-main\Backend\ClickCart\DAL\bin\Debug\DAL.pdb
+G:\ClickCart-main\Backend\ClickCart\DAL\bin\Debug\EntityFramework.dll
+G:\ClickCart-main\Backend\ClickCart\DAL\bin\Debug\EntityFramework.SqlServer.dll
+G:\ClickCart-main\Backend\ClickCart\DAL\bin\Debug\EntityFramework.xml
+G:\ClickCart-main\Backend\ClickCart\DAL\bin\Debug\EntityFramework.SqlServer.xml
+G:\ClickCart-main\Backend\ClickCart\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+G:\ClickCart-main\Backend\ClickCart\DAL\obj\Debug\DAL.csproj.CopyComplete
+G:\ClickCart-main\Backend\ClickCart\DAL\obj\Debug\DAL.dll
+G:\ClickCart-main\Backend\ClickCart\DAL\obj\Debug\DAL.pdb
+G:\ClickCart-main\Backend\ClickCart\DAL\obj\Debug\DAL.Migrations.InitDb.resources
+G:\ClickCart-main\Backend\ClickCart\DAL\obj\Debug\DAL.Migrations.SampleData.resources
+G:\ClickCart-main\Backend\ClickCart\DAL\obj\Debug\DAL.csproj.GenerateResource.cache
+G:\ClickCart-main\Backend\ClickCart\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Order Details</title>
+<style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        .order-details {
+            margin-top: 20px;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .label {
+            font-weight: bold;
+        }
+</style>
+</head>
+<body>
+<div class="container">
+<h1>Order Details</h1>
+<div class="order-details" id="orderDetails">
+<!-- Data will be populated here using JavaScript -->
+</div>
+
+
+ 
+
+    <script>
+        // Fetch data from the API
+        fetch('https://localhost:44366/api/allorder')
+            .then(response => response.json())
+            .then(data => {
+                const orderDetails = document.getElementById('orderDetails');
+                orderDetails.innerHTML = `
+<p><span class="label">Order ID:</span> ${data.Id}</p>
+<p><span class="label">Ordered By:</span> ${data.OrderedBy}</p>
+<p><span class="label">Order Date:</span> ${new Date(data.OrderDate).toLocaleDateString()}</p>
+<p><span class="label">Delivery Address:</span> ${data.DeliveryAddress}</p>
+<p><span class="label">Total Price:</span> $${data.TotalPrice.toFixed(2)}</p>
+<p><span class="label">Status:</span> ${data.Status}</p>
+<p><span class="label">Delivery By:</span> ${data.DeliveryBy}</p>
+                `;
+            })
+            .catch(error => {
+                console.error('Error fetching data:', error);
+            });
+</script>
+</body>
+</html>
